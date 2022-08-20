@@ -13,3 +13,5 @@
 ### - listas de orders
 ### - listas de customers
 ### - listas de perfis de usuários
+
+![diagram](docs/diagram.png)
