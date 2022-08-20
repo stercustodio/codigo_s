@@ -24,7 +24,7 @@ class OrderTools:
             else:
                 counter['mais de 45'] += 100/total
                 
-        return  
+        return counter
     
 
             
