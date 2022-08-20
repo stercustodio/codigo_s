@@ -1,6 +1,6 @@
 # COLLIGHT
 ## THE REASON TEAM
-## Instruções para rodar o codigo
+
 # Sobre o Desafio
 
 ## Criação de uma API REST utilizando DRF com objetivo de transformar dados em informações valiosas para oferecer insights na toma de decisões do negócio.
