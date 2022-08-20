@@ -50,6 +50,6 @@ class Customer(models.Model):
     email = models.CharField(max_length=64, primary_key=True)
     age = models.CharField(max_length=3)
     marital_status = models.CharField(max_length=20, choices=MARITAL_CHOICES)
-    profile = models.CharField(max_length=10, default=None)
+    profile = models.CharField(max_length=10, default='brando')
     def __str__(self) -> str:
         return self.name

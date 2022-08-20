@@ -16,6 +16,7 @@ Including another URLconf
 from collight.views.customer_views import CustomerViewset
 from collight.views.list_profilecustomer_views import ListProfileCustomerViewSet
 from collight.views.order_views import OrderViewset
+from collight.views.list_ageitemviewset import ageitemview
 from django.contrib import admin
 from django.urls import include, path
 from rest_framework import routers
@@ -29,4 +30,5 @@ urlpatterns = [
     path('', include(router.urls)),
     path('user/customerprofile/', ListProfileCustomerViewSet.as_view()),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
+    path('faixa/<pk>', ageitemview)
 ]
